@@ -65,7 +65,7 @@ def main():
         ("Patient A", 68, 170),   # Should be ~23.5 BMI (normal)
         ("Patient B", 95, 180),   # Should be ~29.3 BMI (overweight)
         ("Patient C", 52, 160),   # Should be ~20.3 BMI (normal)
-        ("Patient D", 102, 175),  # Should be ~33.3 BMI (obese)
+        ("Patient D", 70, 175),  # Should be ~33.3 BMI (obese)
     ]
 
     print(f"\nAnalyzing {len(test_patients)} patients...")
